@@ -30,6 +30,7 @@ def main():
             kk_rct.move_ip((-1, 0)) # 練習10
         if key_lst[pg.K_RIGHT]: # 練習10
             kk_rct.move_ip((1, 0)) # 練習10
+        kk_rct.move_ip((-1, 0)) # 演習1
 
         x = tmr%3200 # 練習9
         screen.blit(bg_img, [-x, 0]) # 練習5
